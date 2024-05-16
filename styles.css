@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Blanc */
+    color: #000000; /* Noir */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6600; /* Orange vif */
+    text-align: center;
+}
+
+a {
+    color: #ff6600; /* Orange vif */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.category-links {
+    margin-bottom: 20px;
+}
+
+.category-links a {
+    margin-right: 10px;
+}
+
+.article {
+    background-color: #ffffff; /* Blanc */
+    border: 1px solid #000000; /* Noir */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article h2 {
+    color: #ff6600; /* Orange vif */
+}
+
+.article p {
+    color: #000000; /* Noir */
+}
+
+
+
+
+.container {
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+.navbar {
+    display: inline-block; /* Afficher la barre de navigation en ligne */
+    margin-top: 20px; /* Marge supérieure pour séparer du titre */
+    background-color: black; /* Couleur de fond de la barre de navigation */
+    padding: 0px 10px; /* Rembourrage pour l'espace autour des liens */
+    width: 100%;
+}
+
+.navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline; /* Afficher les éléments de la liste en ligne */
+    margin-right: 20px; /* Marge entre les éléments de la liste */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #FFF; /* Couleur du texte */
+}
+
+.navbar li a:hover {
+    color: orangered; /* Couleur du texte au survol */
+}
